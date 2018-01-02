@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Ancient-Hebrew-Pictographs";
+    src: url("../fonts/Ancient-Hebrew-Pictographs.ttf?2i5ywr")
+            format("truetype"),
+        url("../fonts/Ancient-Hebrew-Pictographs.woff?2i5ywr") format("woff"),
+        url("../fonts/Ancient-Hebrew-Pictographs.svg?2i5ywr#Ancient-Hebrew-Pictographs")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="pictograph-"],
+[class*=" pictograph-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "Ancient-Hebrew-Pictographs" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pictograph-aleph:before {
+    content: "\e900";
+}
+.pictograph-beyt:before {
+    content: "\e901";
+}
+.pictograph-gimel:before {
+    content: "\e902";
+}
+.pictograph-dalet:before {
+    content: "\e903";
+}
+.pictograph-hey:before {
+    content: "\e904";
+}
+.pictograph-vav:before {
+    content: "\e905";
+}
+.pictograph-zayin:before {
+    content: "\e906";
+}
+.pictograph-hhet:before {
+    content: "\e907";
+}
+.pictograph-tet:before {
+    content: "\e908";
+}
+.pictograph-yud:before {
+    content: "\e909";
+}
+.pictograph-kaph:before {
+    content: "\e90a";
+}
+.pictograph-lamed:before {
+    content: "\e90b";
+}
+.pictograph-mem:before {
+    content: "\e90c";
+}
+.pictograph-nun:before {
+    content: "\e90d";
+}
+.pictograph-samehh:before {
+    content: "\e90e";
+}
+.pictograph-ayin:before {
+    content: "\e90f";
+}
+.pictograph-pey:before {
+    content: "\e910";
+}
+.pictograph-tsade:before {
+    content: "\e911";
+}
+.pictograph-quph:before {
+    content: "\e912";
+}
+.pictograph-resh:before {
+    content: "\e913";
+}
+.pictograph-shin:before {
+    content: "\e914";
+}
+.pictograph-tav:before {
+    content: "\e915";
+}
+.pictograph-ghayin:before {
+    content: "\e916";
+}
